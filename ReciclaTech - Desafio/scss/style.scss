@@ -13,27 +13,25 @@ header {
     display: flex;
     justify-content: space-between;
     border-bottom: solid 1px #B4AEAE;
-    height: 60px;
-    width: 1106px;
-    margin-top: 30px;
+    margin-top: 0;
     padding: 31px 39px 50px 31px;
     align-items: center;
-    margin-left: 37px;
+    margin: 2%;
 }
 
 .menufunc {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 33px;
+    gap: 10%;
 }
 
 .menu {
     display: flex;
     list-style: none;
-    gap: 10px;
+    gap: 10%;
     font-family: "Poppins", sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     color: #4B5563;
 }
@@ -45,7 +43,8 @@ header {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     cursor: pointer;
-    gap: 33px;
+    gap: 5%;
+    
 }
 
 /* MAIN */
@@ -54,11 +53,12 @@ main {
 
     .hero__content {
         display: flex;
-        margin-left: 37px;
+        margin-left: 5%;
     }
 
 .img-principal{
     padding-top: 182px;
+    width: 100%;
 }
 }
 
@@ -67,7 +67,7 @@ main {
 .btngreen,
 .btnwhite {
     font-family: "Poppins", sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     height: 62px;
     border-radius: 6px;
     cursor: pointer;
@@ -85,7 +85,7 @@ main {
     background-color: #21c05C;
     color: #fff;
     border: none;
-    margin-right: 43px;
+    margin-right: 5%;
 }
 
 .btnwhite {
@@ -96,21 +96,19 @@ main {
     border: 1px solid #2563EB;
 }
 
-/* Títulos */
 h1 {
-    margin-top: 114px;
+    margin-top: 10%;
     font-family: "Poppins", sans-serif;
-    font-size: 60px;
+    font-size: 3.7rem;
     font-weight: 700;
     line-height: 130%;
     color: #1F2937;
-    width: 678px;
-    gap: 40px;
+    gap: 10%;
 }
 
 h4 {
     font-family: "Inter", sans-serif;
-    font-size: 20px;
+    font-size: 1.3rem;
     font-weight: 400;
     color: #4B5563;
     width: 678px;
@@ -120,30 +118,25 @@ h4 {
 }
 
 .imgrec {
-   margin-bottom: 110px;
+   margin-bottom: 10%;
    margin-top: 0;
 }
 
 .comofunciona {
     h2{
-    width: 338px;
-    height: 60px;
-    top: 997px;
-    margin-left: 94px;
-    font-size: 40px;
+    margin-left: 10%;
+    font-size: 2.4rem;
     font-weight: 700;
     font-family: "Poppins", sans-serif;
-    margin-bottom: 22px;
+    margin-bottom: 1%;
     }
 
     h3 {
-        width: 646px;
-        height: 38px;
-        gap: 16px;
-        margin-left: 94px;
+        gap: 1rem;
+        margin-left: 9%;
         font-family: "Inter", sans-serif;
         font-weight: 400;
-        font-size: 25px;
+        font-size: 1.5rem;
         
         
 
@@ -153,10 +146,10 @@ h4 {
 /* Doadores e Adquirentes */
 
 .caixas {
-    margin-top: 94px;
+    margin-top: 9%;
     display: flex;
-    gap: 22px;
-    margin-bottom: 115px;
+    gap: 1.5rem;
+    margin-bottom: 11%;
 }
 
 .doadores{
@@ -165,27 +158,27 @@ h4 {
     border: 2px;
     border-radius: 8px;
     background-color: #F3F5F8;
-    font-size: 16px;
+    font-size: 1rem;
     color: #4B5563;
     font-weight: 400;
-    margin-left: 88px;
+    margin-left: 8%;
     
 
     .doadores-titulo{
         font-family: "Inter", sans-serif;
-        font-size: 25px;
+        font-size: 1.5rem;
         color: #16A34A;
         display: flex;
-        padding: 28px;   
+        padding: 5%;   
         align-items: center;
     }
 
     h2 {
         font-family: "Poppins", sans-serif;
-        margin-left: 29px;
-        font-size: 16px;
+        margin-left: 3%;
+        font-size: 1rem;
         font-weight: 400;
-        margin-bottom: 36px;
+        margin-bottom: 5%;
         align-items: center;
         display: flex;
         white-space: nowrap;
@@ -195,15 +188,15 @@ h4 {
     h3 {
         font-weight: 700;
         font-style: bold;
-        font-size: 16px;
+        font-size: 1rem;
         color: #09090B;
-        margin-left: 29px;
+        margin-left: 4%;
         font-family: "Poppins", sans-serif;
     }
 
     p {
-        margin-left: 73px;
-        margin-bottom: 45px;
+        margin-left: 11%;
+        margin-bottom: 15%;
         font-family:"Poppins", sans-serif;
 
     }
@@ -215,80 +208,80 @@ h4 {
     border-radius: 8px;
     border: 2px;
     background-color: #F3F5F8;
-    font-size: 16px;
+    font-size: 1rem;
     font-family: "Poppins", sans-serif;
     color: #4B5563;
 
     .adquirentes-titulo {
         font-family: "Inter", sans-serif;
-        font-size: 25px;
+        font-size: 1.5rem;
         color: #2563EB;
         display: flex;
-        padding: 28px;
+        padding: 5%; 
         align-items: center;   
     }
 
     h2 {
-        font-family: "Poppins", sans-serif;
-        margin-left: 29px;
-        font-size: 16px;
-        margin-bottom: 36px;
+       font-family: "Poppins", sans-serif;
+        margin-left: 3%;
+        font-size: 1rem;
         font-weight: 400;
+        margin-bottom: 5%;
+        align-items: center;
+        display: flex;
         white-space: nowrap;
     }
 
     h3 {
         font-weight: 700;
         font-style: bold;
-        font-size: 16px;
+        font-size: 1rem;
         color: #09090B;
-        margin-left: 29px;
+        margin-left: 4%;
         font-family: "Poppins", sans-serif;
-        align-items: center;
     }
 
     p {
-        margin-left: 73px;
-        margin-bottom: 45px;
+        margin-left: 11%;
+        margin-bottom: 15%;
+        font-family:"Poppins", sans-serif;
     }
 }
 
 /* Parte 2 */
 .parte2 {
-    width: 1182px;
-    height: 774px;
     background-color: #F3F5F8;
     margin-left: 0;
+    padding: 5%;
+
 }
 
 .produtos_disponiveis {
     h2 {
-        padding-top: 50px;
         font-family: "Poppins", sans-serif;
         font-weight: 700;
-        font-size: 40px;
+        font-size: 2.5rem;
         white-space: nowrap;
-        margin-bottom: 50px;
 
     }
     p {
-        height: 38px;
         font-family: "Inter", sans-serif;
         font-weight: 400;
-        font-size: 25px;
-        margin-left: 90px;
+        font-size: 1.5rem;
+        margin-left: 10%;
         color: #4B5563;
     }
 }
 
+
 .cards {
   display: flex;
-  gap: 50px;
-  margin-top: 72px;
+  gap: 5%;
+  margin-top: 7%;
   justify-content: center; // centraliza os cards horizontalmente
 
   div {
-    width: 299px;
+    width: 30%;
     background-color: #FFF;
     border: 2px solid #21C05C;
     border-radius: 8px;
@@ -298,25 +291,25 @@ h4 {
 
     img {
       width: 100%;
-      border-radius: 8px;
-      margin-bottom: 20px;
+      border-radius: 2%;
     }
 
     h4 {
       font-family: "Inter", sans-serif;
-      font-size: 20px;
+      font-size: 1.2rem;
       color: #09090B;
       text-align: center;
-      margin: 0;
+      margin:0;
     }
 
     p {
       font-family: "Poppins", sans-serif;
-      font-size: 16px;
+      font-size: 1rem;
       font-weight: 400;
       color: #4B5563;
       text-align: center;
-      margin: auto;
+      margin-left: 5%;
+      margin-right: 5%;
     }
 
     .btn-queroadquirir {
@@ -326,8 +319,8 @@ h4 {
       border: 1px solid #21C05C;
       background-color: #16A34A;
       color: #FFF;
-      margin-bottom: 34px;
-      margin-top: 21px;
+      margin-bottom: 5%;
+      margin-top: 5%;
       cursor: pointer;
     }
   }
@@ -335,52 +328,51 @@ h4 {
 
 .comentarios {
     h2{
-        margin-top: 51px;
+        margin-top: 5%;
         font-family: "Poppins", sans-serif;
         font-weight: 700;
         white-space: nowrap;
         text-align: center;
-        margin-left: 309px;
-        margin-bottom: 8px;
+        margin-left: 3%;
+        margin-bottom: 2%;
+        font-size: 2.5rem;
 
     }
 
     p {
         font-family: "Inter", sans-serif;
-        font-size: 25px;
+        font-size: 1.5rem;
         font-weight: 400;
-        margin-left: 407px;
+        margin-left: 35%;
     }
 }
 
 .depoimentos {
   display: flex;
   background-color: #FFFFFF;
-  gap: 50px;
-  margin-left: 34px;
-  margin-top: 79px;
-  height: 300px;
+  margin-left: 3%;
+  margin-top: 8%;
+  gap: 5%;
 
   p {
     width: 249px;
-    font-size: 16px;
+    font-size: 1rem;
     font-family: "Poppins", sans-serif;
-    margin: 19px 52px 10px; /* encurta a margem inferior */
+    margin: 19px 52px 10px;
   }
 
   .nome {
     display: flex;
     align-items: center;
-    gap: 8px;
-    margin-left: 37px;
-    margin-top: 33px;
-    margin-bottom: 15px; /* deixa ele dentro da borda */
+    gap: 3%;
+    margin-left: 4%;
+    margin-top: 4%;
+    margin-bottom: 1%; /* deixa ele dentro da borda */
     font-family: "Inter", sans-serif;
-    font-size: 14px;
+    font-size: 0.8rem;
 
     .imgnome {
-      width: 40px;
-      height: 40px;
+      width: 10%;
     }
   }
 
@@ -392,7 +384,7 @@ h4 {
 
   h5 {
     font-family: "Inter", sans-serif;
-    font-size: 14px;
+    font-size: 0.8rem;
     flex-direction: column;
   }
 
@@ -408,7 +400,7 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    position: relative; /* garante que os elementos respeitem o limite do card */
+    position: relative;
   }
 }
 
@@ -417,23 +409,20 @@ h4 {
 
 
     h2{
-        margin-top: 69px;
-        width: 619px;
-        height: 60px;
+        margin-top: 7%;
         font-family: "Poppins", sans-serif;
-        font-size: 40px;
+        font-size: 2.5rem;
         font-weight: 700;
-        margin-bottom: 17px;
+        margin-bottom: 3%;
         white-space: nowrap;
-        margin-left: 287px;
-        padding: 81px;
+        margin-left: 25%;
+        padding-top: 8%;
     }
 
     p {
-        width: 659px;
-        margin-left: 269px;
+        margin-left: 10%;
         font-family: "Inter",sans-serif;
-        font-size: 25px;
+        font-size: 1.5rem;
         text-align: center;
     }
 
@@ -444,10 +433,10 @@ h4 {
         border: 1px solid #16A34A;
         background-color: #16A34A;
         color: #FFF;
-        margin-left: 416px;
-        margin-top: 51px ;
-        margin-bottom: 76px;
-        margin-right: 17px;
+        margin-left: 35%;
+        margin-top: 5% ;
+        margin-bottom: 7%;
+        margin-right: 5%;
         font-family: "Poppins", sans-serif ;
         margin: 10 34 10 34;
         cursor: pointer;
@@ -470,29 +459,29 @@ h4 {
         background-color: #1F2937;
         width: auto;
         height: 345px;
-        padding-top: 39px;
+        padding-top: 3%;
         font-family: "Poppins", sans-serif;
-        font-size: 16px;
+        font-size: 1rem;
 
         .imagemrecfooter{
             p{
-                margin-top: 19px;
-                margin-left: 23px;
+                margin-top: 2%;
+                margin-left: 2%;
             }
         }
 
      p {
         width: 229px;
         height: 72px;
-        margin-left: 22px;
+        margin-left: 2%;
         font-family: "Poppins", sans-serif;
-        font-size: 16px;
+        font-size: 1rem;
         color: #9CA3AF;
         }
     
          h2 {
         font-family: "Poppins", sans-serif;
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: 700;
         color: #FFFFFF;
         margin-bottom: 0;
@@ -508,19 +497,19 @@ h4 {
 
         li{
             font-family: "Poppins", sans-serif;
-            font-size: 16px;
+            font-size: 1rem;
             color: #9CA3AF;
             cursor: pointer;
-            gap: 71px;
+            gap: 7%;
 
         }
 
         .links{
-            margin-left:125px ;
+            margin-left:12% ;
         }
 
         .suporte{
-            margin-left: 32px;
+            margin-left: 3%;
         }
 
     }
@@ -528,7 +517,7 @@ h4 {
 footer{
     border-top: 1px solid #4B5563;
     background-color: #1F2937;
-    padding: 29px;
+    padding: 3%;
     color: #9CA3AF;
     font-family: "Poppins", sans-serif;
     text-align: center;
@@ -536,24 +525,28 @@ footer{
 
 @media (max-width: 768px) {
 
-  /* Ajuste geral */
   body {
     overflow-x: hidden;
-    padding: 0 16px;
+    padding: 0 2%;
   }
 
   header {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding: 10px 0;
-    margin-left: 10px;
+    padding: 2%;
+    margin-left: 1%;
   }
 
+
+  main {
+    min-width: 300px;
+    max-width: 1000px;
+  }
   .menu {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 3%;
   }
 
   main .hero__content {
@@ -564,32 +557,31 @@ footer{
   }
 
   .imgrec {
-       display: none;
+       display: flex;
+       width: 100%;
     }
 
   .img-principal {
     width: 50%;
-    height: auto;
-    padding-top: 20px;
+    padding-top: 2%;
   }
 
   h1 {
-    font-size: 28px;
+    font-size: 1.5rem;
     width: 100%;
-    margin-top: 70px;
-    margin-bottom: 20px;
+    margin-top: 7%;
   }
 
   h4 {
-    font-size: 16px;
+    font-size: 1rem;
     width: 100%;
-    margin: 10px 0 30px;
+    margin-bottom: 10%;
   }
 
 
     .btn-greenft, .btn-header, .btn-whiteft, .btngreen, .btnwhite {
     flex-direction: row;
-    gap: 12px; 
+    gap: 2%; 
     justify-content: center;
     }
 
@@ -615,7 +607,38 @@ footer{
   .cards {
     flex-direction: column;
     align-items: center;
-    gap: 24px;
+    width: 100%;
+    gap: 30px; 
+    margin-top: 10%;
+  }
+
+  .cards div {
+    width: 80%; 
+    max-width: 350px; 
+    margin: 0 auto; 
+  }
+
+  .cards div img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .cards div p {
+    margin: 10px 5%;
+    font-size: 1rem;
+  }
+
+  .cards div h4 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+
+  .cards div .btn-queroadquirir {
+    width: 70%;
+    max-width: 200px;
+    margin-top: 15px;
+    margin-bottom: 20px;
   }
 
   .depoimentos {
@@ -631,7 +654,8 @@ footer{
 
   .diferenca h2, 
   .diferenca p {
-    width: 100%;
+    display: flex;
+    font-size: 2rem;
     text-align: center;
     margin-left: 0;
   }
