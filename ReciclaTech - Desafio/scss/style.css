@@ -10,9 +10,10 @@
 
 /* Header */
 header {
-  position: relative; /* ✅ evita empurrar */
+  position: relative; 
   display: flex;
   justify-content: space-between;
+  white-space: nowrap;
   border-bottom: solid 1px #B4AEAE;
   margin-top: 0;
   padding: 31px 39px 50px 31px;
@@ -24,13 +25,13 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10%;
+  gap: 5%;
 }
 
 .menu {
   display: flex;
   list-style: none;
-  gap: 10%;
+  gap: 5%;
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   font-weight: 400;
@@ -44,12 +45,12 @@ header {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   cursor: pointer;
-  gap: 5%;
+  list-style: none;
 }
 
 /* MAIN */
 main {
-  position: relative; /* ✅ adiciona contexto pro absolute */
+  position: relative; 
 }
 main .hero__content {
   display: flex;
@@ -76,6 +77,7 @@ main .img-principal {
   background-color: #21c05C;
   color: #fff;
   border: none;
+  margin-left: 5%;
 }
 
 .btngreen {
@@ -140,6 +142,7 @@ h4 {
   display: flex;
   gap: 1.5rem;
   margin-bottom: 11%;
+  align-items: flex-start;
 }
 
 .doadores {
@@ -178,6 +181,9 @@ h4 {
   color: #09090B;
   margin-left: 4%;
   font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 .doadores p {
   margin-left: 11%;
@@ -215,11 +221,13 @@ h4 {
 }
 .adquirentes h3 {
   font-weight: 700;
-  font-style: bold;
   font-size: 1rem;
   color: #09090B;
   margin-left: 4%;
   font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 .adquirentes p {
   margin-left: 11%;
@@ -331,7 +339,7 @@ h4 {
   gap: 3%;
   margin-left: 4%;
   margin-top: 4%;
-  margin-bottom: 1%; /* deixa ele dentro da borda */
+  margin-bottom: 1%; 
   font-family: "Inter", sans-serif;
   font-size: 0.8rem;
 }
@@ -373,7 +381,7 @@ h4 {
   font-weight: 700;
   margin-bottom: 3%;
   white-space: nowrap;
-  margin-left: 25%;
+  margin-left: 30%;
   padding-top: 8%;
 }
 .diferenca p {
@@ -416,6 +424,12 @@ h4 {
   padding-top: 3%;
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.final .final > div {
+  flex: 1;
+  min-width: 200px;
 }
 .final .imagemrecfooter p {
   margin-top: 2%;
@@ -449,12 +463,6 @@ h4 {
   cursor: pointer;
   gap: 7%;
 }
-.final .links {
-  margin-left: 12%;
-}
-.final .suporte {
-  margin-left: 3%;
-}
 
 footer {
   border-top: 1px solid #4B5563;
@@ -463,6 +471,14 @@ footer {
   color: #9CA3AF;
   font-family: "Poppins", sans-serif;
   text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer > * {
+  flex: 0 1 auto;
+  width: auto;
 }
 
 @media (max-width: 768px) {
@@ -516,7 +532,7 @@ footer {
     justify-content: center;
   }
   .btngreen, .btnwhite {
-    margin: 0; /* remove margens individuais que quebram o alinhamento */
+    margin: 0; 
   }
   .caixas {
     flex-direction: column;
@@ -583,7 +599,15 @@ footer {
     text-align: center;
     height: auto;
   }
-  .links, .suporte {
-    margin-left: 0;
+  footer {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  footer > * {
+    flex: 0 1 auto;
+    width: auto;
+    min-width: 0;
   }
 }/*# sourceMappingURL=style.css.map */
